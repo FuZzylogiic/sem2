@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #5a9; /* Color personalizado para el sitio */
+    --secondary-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar-custom {
+    background-color: var(--primary-color);
+}
+
+/* Cards */
+.card-custom {
+    border: 1px solid var(--primary-color);
+}
+
+/* Botones */
+.btn-custom {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #47985c;
+}
+
+/* Formularios */
+form .form-control {
+    border: 1px solid var(--primary-color);
+}
+
+form .form-label {
+    color: var(--primary-color);
+}
+
+/* Margen y espaciado personalizado */
+.my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
